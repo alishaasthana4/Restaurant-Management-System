@@ -22,3 +22,16 @@
 - User Interface: A GUI is built using the Tkinter library in Python, which provides an easy-to-use interface for restaurant staff to place orders, manage tables, and process payments.
   
 - Interface Preview: The GUI includes sections for menu selection, order management, payment methods, and table availability. Below is a screenshot of the interface:
+
+<img width="566" alt="res 1 " src="https://github.com/user-attachments/assets/844fe662-13d5-406c-93de-baae2765e755">
+
+<img width="572" alt="res 2" src="https://github.com/user-attachments/assets/a2544809-a38c-4183-ab44-1908dae01585">
+
+<img width="560" alt="res 3" src="https://github.com/user-attachments/assets/29370565-bfb5-4349-8f1b-8a0f8c4deb4d">
+
+<img width="565" alt="res 4" src="https://github.com/user-attachments/assets/df3f9f09-a29b-42a3-8ac5-84c744804ed8">
+
+
+
+
+
