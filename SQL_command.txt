@@ -1,0 +1,24 @@
+#sql commands:
+
+CREATE DATABASE restaurant_db;
+USE restaurant_db;
+
+#Create Tables:
+CREATE TABLE orders (
+    order_id INT PRIMARY KEY AUTO_INCREMENT,
+    total DECIMAL(10, 2),
+    payment_method VARCHAR(50),
+    status VARCHAR(50)
+);
+
+CREATE TABLE order_items (
+    item_id INT PRIMARY KEY AUTO_INCREMENT,
+    order_id INT,
+    item_name VARCHAR(255),
+    item_price DECIMAL(10, 2),
+    category VARCHAR(50),
+    FOREIGN KEY (order_id) REFERENCES orders(order_id)
+);
+ALTER TABLE orders ADD COLUMN table_number INT;
+ALTER TABLE order_items ADD COLUMN table_number INT;
+
